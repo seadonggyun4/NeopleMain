@@ -7,7 +7,7 @@ canvas, svg 애니메이션을 구현하기위한 라이브러리를제외<br/>
 UI 를 구성하는 기능은 라이브러리를 사용하지 않고<br/>
 Javascript, css를 이용해 구현했습니다.<br/>
 
-https://neople.netlify.app/neople/main
+https://neople.netlify.app
 
 ## 실행방법
 - 터미널에 아래와 같이 입력합니다.

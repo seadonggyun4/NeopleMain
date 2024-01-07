@@ -13,21 +13,21 @@
           <font-awesome-icon :icon="['fas', 'angle-right']" />
         </button>
         <ul v-if="openSubNav === 1" :class="$style.subNavList">
-          <li><a href="#">네오플 소개</a></li>
-          <li><a href="#">네오플 과거사</a></li>
-          <li><a href="#">네오플 라이프</a></li>
-          <li><a href="#">네오플 소식들</a></li>
+          <li><a href="#1">네오플 소개</a></li>
+          <li><a href="#12">네오플 과거사</a></li>
+          <li><a href="#13">네오플 라이프</a></li>
+          <li><a href="#14">네오플 소식들</a></li>
         </ul>
       </li>
 
       <li :class="$style.navItem">
-        <a href="#">
+        <a href="#2">
           게임소개
           <font-awesome-icon :icon="['fas', 'angle-right']" />
         </a>
       </li>
       <li :class="$style.navItem">
-        <a href="#">
+        <a href="#3">
           네오플인을 찾습니다
           <font-awesome-icon :icon="['fas', 'angle-right']" />
         </a>

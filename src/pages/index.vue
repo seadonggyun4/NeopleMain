@@ -32,6 +32,9 @@ export default {
   watch: {
     $route: function (newVal, oldVal) {
       if (newVal !== oldVal) {
+        if (this.navActive) {
+          this.SET_NAV();
+        }
         this.OPEN_CURTAIN({ time: 1800 });
       }
     },

@@ -65,9 +65,8 @@ export default {
 .mobileBlogContent .title {
   position: absolute;
   left: 0;
-  bottom: 200px;
   width: 100%;
-  height: 80%;
+  height: 100%;
   font-size: 0;
   background: url("@/assets/img/blogSection/title_m.png") no-repeat;
 }

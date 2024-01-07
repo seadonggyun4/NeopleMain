@@ -76,11 +76,10 @@ export default {
 .modileEmploymentContent .title {
   position: absolute;
   left: 0;
-  bottom: 200px;
   width: 100%;
-  height: 45%;
+  height: 100%;
   font-size: 0;
-  background: url(http://localhost:8080/img/title_M.a2513a74.png) no-repeat;
+  background: url("@/assets/img/employmentSection/title_M.png") no-repeat;
 }
 
 .modileEmploymentContent .btnWrap {
